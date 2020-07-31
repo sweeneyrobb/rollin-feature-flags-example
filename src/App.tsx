@@ -2,6 +2,7 @@ import React from 'react'
 import logo from './logo.svg'
 import './App.css'
 import { Filter, useFlag, useSetFlags } from './features'
+import { ClassComponentExample } from './ClassComponentExample'
 
 function App() {
     const feature1 = useFlag('rollin-feature-flags-example.area.feature1')
@@ -30,6 +31,7 @@ function App() {
                         Turn Feature On
                     </button>
                 )}
+                <ClassComponentExample />
             </header>
         </div>
     )

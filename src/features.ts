@@ -2,6 +2,7 @@ import { createFeatures } from 'rollin-feature-flags'
 
 export const {
     FeatureFlagProvider,
+    FeatureFlagConsumer,
     Filter,
     featureFlags,
     useFlag,
